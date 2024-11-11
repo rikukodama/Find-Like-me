@@ -1,0 +1,62 @@
+.modal__overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+	backdrop-filter: blur(20px);
+}
+
+.modal__content {
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	max-width: 90%;
+	max-height: 90vh;
+	overflow-y: auto;
+	position: relative;
+}
+
+/* Scrollbar styling for the modal content */
+.modal__content::-webkit-scrollbar {
+	width: 8px;
+}
+
+.modal__content::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	border-radius: 4px;
+}
+
+.modal__content::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 4px;
+}
+
+.modal__content::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+/* Animations */
+@keyframes modalFadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Ensure the modal is responsive */
+@media (max-width: 768px) {
+	.modal__content {
+		width: 95%;
+		padding: 16px;
+	}
+}

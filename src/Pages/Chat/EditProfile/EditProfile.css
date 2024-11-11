@@ -1,0 +1,477 @@
+.edit-profile-container {
+	width: 100vw;
+	min-height: 100vh;
+	padding: 24px;
+}
+.edit-profile-container h2 {
+	color: #000;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 1.1;
+	margin: 0px 0px 24px 0px;
+}
+.edit-profile__form_container-input {
+	padding: 16px;
+	border-radius: 16px;
+	border: 1px solid #e5e5e5;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.edit-profile-container__header {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 740px;
+	display: flex;
+	justify-content: flex-start;
+}
+.edit-profile__form {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	margin: 0 auto;
+}
+.edit-profile__form_container_parent_div_top {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: flex-start;
+}
+.edit-profile__form_container_parent_div_top h3 {
+	color: #140c01;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.1;
+	margin: 0px 0px 4px 0px;
+}
+.edit-profile__form_container_parent_div_top p {
+	color: #737373;
+	font-family: 'Open Sans';
+	font-weight: normal;
+	font-size: 14px;
+}
+.edit-profile__top-buttons {
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 4px;
+}
+.edit-profile__top-buttons .edit-profile__cancel-btn {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 888px;
+	padding: 6px 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	cursor: pointer;
+}
+.edit-profile__confirm-btn {
+	background: var(--primary-gradient);
+	color: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 888px;
+	padding: 6px 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	cursor: pointer;
+}
+.edit-profile__picture-selection {
+	position: relative;
+	width: 240px;
+	flex-shrink: 0;
+}
+.edit-profile__picture-selection .edit-profile__button {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 36px;
+	width: 36px;
+	cursor: pointer;
+}
+.edit-profile__button-icon {
+	width: 15px;
+	height: 15px;
+}
+.edit-profile__picture-selection img {
+	max-width: 240px;
+	max-height: 240px;
+	border-radius: 12px;
+}
+.edit-profile__form_container__parent_div_bottom {
+	display: flex;
+	gap: 24px;
+	align-items: flex-start;
+}
+.edit-profile-randomasda {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	gap: 24px;
+	max-width: 420px;
+}
+.edit-profile-randomasda input {
+	width: 100%;
+	padding: 12px 16px;
+	border: 1px solid #e5e5e5;
+	border-radius: 999px;
+	background: #fff;
+	font-family: 'Open Sans';
+	font-weight: normal;
+	font-size: 14px;
+	color: #140c01;
+}
+.edit-profile-randomasda label {
+	color: #140c01;
+	font-weight: 500;
+	font-family: 'Open Sans';
+	font-size: 14px;
+}
+.edit-profile-randomasda textarea {
+	width: 100%;
+	padding: 12px 16px;
+	border: 1px solid #e5e5e5;
+	border-radius: 16px;
+	background: #fff;
+	font-family: 'Open Sans';
+	font-weight: normal;
+	font-size: 14px;
+	height: 100%;
+	color: #140c01;
+}
+.edit-profile__textarea-wrapper {
+	height: 100%;
+}
+.kahskahdas {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.edit-profile__form {
+	max-width: 740px;
+}
+.edit-profile__delete-account {
+	margin-top: 0;
+	padding: 0px 0px 24px 0px;
+}
+.delete-account-button {
+	color: #dc3545;
+	background: transparent;
+	border: 1px solid #dc3545;
+	border-radius: 888px;
+	padding: 8px 16px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	transition: all 0.2s ease;
+	font-weight: 500;
+	min-width: 160px;
+}
+.delete-account-button:hover {
+	background: #dc3545;
+	color: #fff;
+}
+.edit-profile__logout {
+	margin-top: 0;
+}
+.edit-profile__logout-btn {
+	color: #737373;
+	background: transparent;
+	border: 1px solid #e5e5e5;
+	border-radius: 888px;
+	padding: 8px 16px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	transition: all 0.2s ease;
+	font-weight: 500;
+	min-width: 160px;
+}
+.edit-profile__logout-btn:hover {
+	background: #f5f5f5;
+}
+.custom-dropdown {
+	position: relative;
+	width: 100%;
+	max-width: 420px;
+}
+.custom-dropdown__selected {
+	padding: 12px 16px;
+	border: 1px solid #e5e5e5;
+	border-radius: 999px;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+}
+.custom-dropdown__list {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 16px;
+	margin-top: 8px;
+	padding: 8px 0;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	z-index: 1000;
+	list-style: none;
+}
+.custom-dropdown__item {
+	padding: 8px 16px;
+	cursor: pointer;
+	transition: background 0.2s ease;
+}
+.custom-dropdown__item:hover {
+	background: #f5f5f5;
+}
+.password-meter-div-parent {
+	position: relative;
+	width: 100%;
+}
+.edit-profile__password-strength {
+	position: absolute;
+	right: 16px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 12px;
+}
+.edit-profile__password-strength.very-strong {
+	color: #28a745;
+}
+.edit-profile__password-strength.strong {
+	color: #198754;
+}
+.edit-profile__password-strength.ok {
+	color: #ffc107;
+}
+.edit-profile__password-strength.weak {
+	color: #dc3545;
+}
+.edit-profile__password-strength.too-short {
+	color: #dc3545;
+}
+.edit-profile__error-message {
+	color: #dc3545;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+/* Password Section Styling */
+.edit-profile__password-section {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	width: 100%;
+	max-width: 420px;
+}
+
+.edit-profile__password-field {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.edit-profile__label--optional {
+	color: #737373;
+	font-size: 12px;
+	margin-left: 8px;
+}
+
+/* Updated Button Styling */
+.edit-profile__buttons-container {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.edit-profile__action-group {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+/* Input Styling */
+.edit-profile__input {
+	width: 100%;
+	padding: 12px 16px;
+	border: 1px solid #e5e5e5;
+	border-radius: 8px;
+	font-size: 14px;
+	line-height: 1.5;
+	transition: border-color 0.2s ease;
+	background-color: #fff;
+}
+
+.edit-profile__input:focus {
+	outline: none;
+	border-color: #2563eb;
+	box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+}
+
+.edit-profile__input-error {
+	border-color: #ef4444;
+}
+
+.edit-profile__input-error:focus {
+	border-color: #ef4444;
+	box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.1);
+}
+
+/* Password Strength Indicator */
+.edit-profile__password-strength {
+	margin-top: 8px;
+	font-size: 12px;
+	padding: 4px 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.edit-profile__password-strength.password-strength-too-short,
+.edit-profile__password-strength.password-strength-weak {
+	background-color: #fee2e2;
+	color: #dc2626;
+}
+
+.edit-profile__password-strength.password-strength-ok {
+	background-color: #fef3c7;
+	color: #d97706;
+}
+
+.edit-profile__password-strength.password-strength-strong {
+	background-color: #d1fae5;
+	color: #059669;
+}
+
+.edit-profile__password-strength.password-strength-very-strong {
+	background-color: #dcfce7;
+	color: #16a34a;
+}
+
+/* Error Message */
+.edit-profile__error-message {
+	color: #ef4444;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+/* Password Container */
+.password-meter-div-parent {
+	position: relative;
+	width: 100%;
+}
+
+/* Optional Label */
+.edit-profile__label {
+	font-weight: 500;
+	color: #374151;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+}
+
+/* Button Styling */
+.delete-account-button,
+.edit-profile__logout-btn {
+	padding: 12px 24px;
+	border-radius: 4000px;
+	font-size: 14px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.delete-account-button {
+	background-color: #ef4444;
+	color: #fafafa;
+	border: 1px solid #e5e5e5;
+}
+
+.edit-profile__logout-btn {
+	background-color: #fff;
+	color: #ef4444;
+	border: 1px solid #e5e5e5;
+}
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+	.edit-profile__form_container__parent_div_bottom {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.edit-profile-randomasda {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.edit-profile__top-buttons {
+		margin-top: 0;
+		flex-shrink: 0;
+	}
+
+	.edit-profile__form_container_parent_div_top {
+		flex-direction: row;
+		gap: 16px;
+	}
+
+	.custom-dropdown {
+		max-width: 100%;
+	}
+
+	.edit-profile__password-section {
+		max-width: 100%;
+	}
+
+	.edit-profile__action-group {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.delete-account-button,
+	.edit-profile__logout-btn {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.edit-profile-container {
+		padding: 16px;
+	}
+
+	.edit-profile__form_container-input {
+		padding: 12px;
+	}
+
+	.edit-profile__picture-selection {
+		width: 100%;
+		max-width: 240px;
+	}
+
+	.edit-profile__picture-selection img {
+		width: 100%;
+		height: auto;
+	}
+}

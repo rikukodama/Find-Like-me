@@ -1,0 +1,144 @@
+.confirmation-dialog__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100dvh;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: overlayFadeIn 0.2s ease;
+  padding: 16px;
+}
+
+.confirmation-dialog__content {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  max-width: 420px;
+  width: 100%;
+  transform-origin: center;
+  animation: dialogPopIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+}
+
+.confirmation-dialog__header {
+  padding: 20px 24px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.confirmation-dialog__header h3 {
+  margin: 0;
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.confirmation-dialog__body {
+  padding: 24px;
+}
+
+.confirmation-dialog__body p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #444;
+  font-weight: 400;
+}
+
+.confirmation-dialog__footer {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  border-top: 1px solid #f0f0f0;
+  background: #fafafa;
+}
+
+.confirmation-dialog__button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  min-width: 100px;
+  border: none;
+}
+
+.confirmation-dialog__button--primary {
+  background: #dc3545;
+  color: white;
+}
+
+.confirmation-dialog__button--primary:hover {
+  background: #c82333;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(220, 53, 69, 0.2);
+}
+
+.confirmation-dialog__button--secondary {
+  background: #fff;
+  color: #666;
+  border: 1px solid #e0e0e0;
+}
+
+.confirmation-dialog__button--secondary:hover {
+  background: #f5f5f5;
+  transform: translateY(-1px);
+}
+
+.confirmation-dialog__button:active {
+  transform: translateY(0);
+}
+
+@keyframes overlayFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes dialogPopIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Mobile Optimization */
+@media (max-width: 480px) {
+  .confirmation-dialog__overlay {
+    padding: 16px;
+  }
+
+  .confirmation-dialog__content {
+    width: 100%;
+  }
+
+  .confirmation-dialog__header {
+    padding: 16px 20px;
+  }
+
+  .confirmation-dialog__body {
+    padding: 20px;
+  }
+
+  .confirmation-dialog__footer {
+    padding: 16px 20px;
+  }
+
+  .confirmation-dialog__button {
+    flex: 1;
+    padding: 12px 16px;
+  }
+}

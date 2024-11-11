@@ -1,0 +1,494 @@
+{
+	"findNew": {
+		"title": "Trouvez quelqu'un comme vous",
+		"descriptionTitle": "Trouvez quelqu'un qui partage vos intérêts, valeurs et objectifs. Notre algorithme de correspondance vous aidera à trouver votre partenaire idéal.",
+		"formValidationDescriptionLength": "La description doit contenir au moins 10 caractères.",
+		"labels": {
+			"selectCategory": "Sélectionnez la catégorie du problème:",
+			"selectSpecificIssue": "Précisez le problème:",
+			"describeYourProblem": "Décrivez votre problème ici...",
+			"selectMode": "Choisir",
+			"describeMode": "Décrire",
+			"selectAgeRange": "Sélectionnez la tranche d'âge"
+		},
+		"placeholders": {
+			"category": "Choisissez une catégorie",
+			"specificIssue": "Choisissez un problème spécifique",
+			"describeYourProblem": "Décrivez votre problème ici...",
+			"selectAgeRange": "Sélectionnez la tranche d'âge"
+		},
+		"submitButton": {
+			"default": "Trouver un ami",
+			"incomplete": "Répondez à toutes les questions",
+			"limitReached": "Limite d'amis atteinte"
+		},
+		"questions": {
+			"problem": "Quel est votre problème?"
+		},
+		"submitError": "Erreur lors de l'envoi de la réponse.",
+		"formValidationError": "Veuillez répondre à toutes les questions.",
+		"searchingFriend": "Recherche d'un ami...",
+		"activeResponseWarning": "Vous avez déjà une réponse active dans la catégorie :",
+		"fetchUserDataError": "Erreur lors de la récupération des données de l'utilisateur.",
+		"alert_can_cancel": "Vous pouvez annuler la réponse active.",
+		"closeInfo": "*Cliquez en dehors de cette fenêtre si vous souhaitez la fermer.",
+		"describeMode": "Mode de description",
+		"list": "Choisir",
+		"description": "Décrire",
+		"categories": {
+			"Addictions": [
+				"Je suis accro au téléphone/ordinateur",
+				"Je suis accro aux réseaux sociaux",
+				"Je suis accro aux jeux d'ordinateur",
+				"Je suis accro au travail",
+				"Je suis accro aux jeux d'argent",
+				"Je suis accro au sexe",
+				"Je suis accro au shopping",
+				"Je suis accro à la nicotine",
+				"Je suis accro à l'alcool",
+				"Je suis accro aux drogues"
+			],
+			"Complexes": [
+				"J'ai un complexe de taille",
+				"J'ai un complexe de poids",
+				"J'ai un complexe d'apparence faciale",
+				"J'ai un complexe d'image corporelle",
+				"J'ai un complexe d'intelligence",
+				"J'ai un complexe de mode",
+				"J'ai un complexe de voix",
+				"J'ai un complexe de compétences sociales"
+			],
+			"Soledad": [
+				"Je me sens seul",
+				"Je n'ai pas d'amis",
+				"Je n'ai personne à qui parler",
+				"Je ne me sens pas soutenu par ma famille",
+				"Je n'ai pas de personne proche",
+				"Manque d'acceptation dans le groupe de pairs",
+				"Manque d'acceptation dans le groupe professionnel"
+			],
+			"Problèmes d'Orientation Sexuelle": [
+				"Je ne sais pas qui je suis",
+				"J'ai peur de faire mon coming-out",
+				"Je n'accepte pas mon orientation",
+				"J'ai peur d'être rejeté par ma famille",
+				"Je suis gay, j'aimerais parler avec un autre gay",
+				"Je suis lesbienne, j'aimerais parler avec une autre lesbienne"
+			],
+			"Violence": [
+				"Je suis victime de violence à l'école",
+				"Je suis victime de violence physique",
+				"Je suis victime de violence psychologique",
+				"Je suis victime de violence familiale",
+				"Je suis victime de violence économique",
+				"Je suis victime de violence sexuelle"
+			],
+			"Dépression": [
+				"Je me sens déprimé",
+				"Je me sens inutile",
+				"Je me sens impuissant",
+				"Je me sens superflu",
+				"Je me sens incompris",
+				"Je ne peux pas profiter des choses qui me rendaient heureux avant",
+				"Je me mutile",
+				"Je pense au suicide"
+			],
+			"Décès d'un Être Cher": [
+				"Un membre proche de la famille est décédé",
+				"Un ami est décédé",
+				"Un partenaire est décédé",
+				"Un animal de compagnie est décédé"
+			],
+			"Anxiétés": [
+				"J'ai peur de parler en public",
+				"J'ai peur de la solitude",
+				"J'ai peur de l'avenir",
+				"J'ai peur du changement",
+				"J'ai peur de la maladie",
+				"J'ai peur de la mort",
+				"J'ai peur de la mort d'un être cher",
+				"J'ai peur de perdre mon travail",
+				"J'ai peur de perdre mon logement"
+			],
+			"Troubles": ["Je mange trop", "Je mange trop peu", "Je vomis après avoir mangé"],
+			"Problèmes Relationnels": [
+				"Problèmes dans les relations avec les parents",
+				"Problèmes dans la relation avec le partenaire",
+				"Problèmes dans la relation avec les frères et sœurs",
+				"Difficultés à se faire des amis",
+				"Difficultés à maintenir des relations",
+				"Manque de confiance dans les autres"
+			]
+		}
+	},
+	"confirmation_dialog": {
+		"yes": "Oui",
+		"no": "Non"
+	},
+	"friends_list": {
+		"title": "Vos amis",
+		"search_placeholder": "Rechercher",
+		"my_friends": "Mes amis",
+		"no_friends_found": "Aucun ami trouvé pour {{query}}",
+		"no_friends_or_active_searches": "Aucun ami ou recherche active",
+		"find_new_friend": "Créer un Lien Significatif",
+		"talk_to_professional": "Échanger avec un Expert",
+		"active_searches_section": {
+			"title": "Recherches Actives",
+			"toggle_aria": "Basculer la section des recherches actives"
+		},
+		"or": "OU",
+		"leave_review_prompt": "Laissez un avis"
+	},
+	"chat_window": {
+		"today": "Aujourd'hui",
+		"cancel_reply": "Annuler la réponse",
+		"back_button": "Retour",
+		"no_friend_selected_title": "Sélectionnez un ami pour commencer à discuter",
+		"no_friend_selected_subtitle": "Retournez à un chat existant ou trouvez un nouvel ami",
+		"delete_friend": "Supprimer l'ami",
+		"confirm_remove_friend": "Êtes-vous sûr de vouloir supprimer {{name}} de vos amis ?",
+		"message_deleted": "Ce message a été supprimé.",
+		"replying_to": "En réponse à",
+		"emoji_picker": {
+			"title": "Émojis",
+			"close": "Fermer le sélecteur d'émojis",
+			"search": {
+				"placeholder": "Rechercher des émojis..."
+			},
+			"categories": {
+				"recent": "Récents",
+				"favorites": "Favoris",
+				"smileys": "Sourires",
+				"emotions": "Émotions",
+				"food": "Nourriture et boissons",
+				"flags": "Drapeaux"
+			},
+			"section_titles": {
+				"search_results": "Résultats de recherche"
+			}
+		},
+		"message_input": {
+			"placeholder": "Envoyer un message..."
+		}
+	},
+	"edit_profile": {
+		"settings": "Paramètres",
+		"profile_info": "Informations du profil",
+		"profile_info_description": "Gérez et mettez à jour les informations publiques de votre profil",
+		"profile_picture_alt": "Photo de profil",
+		"generate_new_avatar": "Générer un nouvel avatar",
+		"username_label": "Nom d'utilisateur",
+		"username_placeholder": "Entrez votre nom d'utilisateur",
+		"description_label": "Description",
+		"description_placeholder": "Parlez-nous de vous",
+		"language_label": "Langue",
+		"select_language": "Sélectionnez la langue",
+		"password_label": "Mot de passe",
+		"password_placeholder": "Entrez un nouveau mot de passe",
+		"repeat_password_label": "Répétez le mot de passe",
+		"repeat_password_placeholder": "Répétez votre mot de passe",
+		"passwords_do_not_match": "Les mots de passe ne correspondent pas",
+		"cancel": "Annuler",
+		"confirm": "Confirmer",
+		"logout": "Déconnexion",
+		"delete_account": "Supprimer le compte",
+		"delete_account_confirmation": "Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.",
+		"account_deleted_success": "Compte supprimé avec succès",
+		"account_delete_error": "Erreur lors de la suppression du compte",
+		"profile_updated_success": "Profil mis à jour avec succès",
+		"profile_update_error": "Erreur lors de la mise à jour du profil",
+		"username_taken": "Le nom d'utilisateur est déjà pris",
+		"username_check_error": "Erreur lors de la vérification de la disponibilité du nom d'utilisateur",
+		"username_invalid": "Le nom d'utilisateur contient du contenu inapproprié",
+		"form_validation_error": "Veuillez corriger les erreurs avant de soumettre",
+		"password_strength_very_strong": "Très Fort",
+		"password_strength_strong": "Fort",
+		"password_strength_ok": "OK",
+		"password_strength_weak": "Faible",
+		"password_strength_too_short": "Trop court"
+	},
+	"login": {
+		"welcome_back": "Bienvenue!",
+		"enter_details": "Entrez vos informations pour rejoindre la conversation et renouer avec des personnes qui comprennent.",
+		"email": "Email",
+		"password": "Mot de passe",
+		"forgot_password": "Mot de passe oublié?",
+		"login_button": "Connexion",
+		"no_account": "Vous n'avez pas de compte?",
+		"register_link": "S'inscrire",
+		"invalid_data": "Données invalides",
+		"invalid_credentials": "Email ou mot de passe incorrect",
+		"success": "Connexion réussie"
+	},
+	"register": {
+		"create_account": "Créer un compte",
+		"join_community": "Rejoignez notre communauté solidaire dès aujourd'hui",
+		"username": "Nom d'utilisateur",
+		"email": "Email",
+		"password": "Mot de passe",
+		"language": "Langue",
+		"register_button": "S'inscrire",
+		"have_account": "Vous avez déjà un compte?",
+		"login_link": "Connexion",
+		"name_too_short": "Le nom d'utilisateur doit comporter au moins 3 caractères",
+		"username_taken": "Ce nom d'utilisateur est déjà pris",
+		"username_check_failed": "Erreur lors de la vérification de la disponibilité du nom d'utilisateur",
+		"invalid_email": "Adresse e-mail invalide",
+		"email_taken": "Cet e-mail est déjà enregistré",
+		"email_check_failed": "Erreur lors de la vérification de la disponibilité de l'email",
+		"password_too_short": "Le mot de passe doit comporter au moins 8 caractères",
+		"password_too_weak": "Le mot de passe doit contenir au moins une lettre minuscule, une majuscule et un chiffre",
+		"success": "Inscription réussie"
+	},
+	"password_strength": {
+		"requirements": {
+			"min_length": "Au moins 8 caractères",
+			"uppercase": "Une lettre majuscule",
+			"lowercase": "Une lettre minuscule",
+			"number": "Un chiffre"
+		},
+		"strength": {
+			"weak": "Faible",
+			"fair": "Moyen",
+			"good": "Bon",
+			"strong": "Fort"
+		}
+	},
+	"hero_content": {
+		"first": {
+			"title": "Trouvez du soutien, partagez votre force",
+			"description": "Connectez-vous avec des personnes qui comprennent vos difficultés et progressez ensemble"
+		},
+		"second": {
+			"title": "Un espace sûr pour guérir",
+			"description": "Partagez votre parcours dans un environnement de soutien et sans jugement"
+		},
+		"third": {
+			"title": "Empowerment par la communauté",
+			"description": "Acquérez des perspectives, des outils et des amitiés pour vous aider à prospérer"
+		}
+	},
+	"placeholders": {
+		"username": "Entrez votre nom d'utilisateur",
+		"email": "exemple@email.com",
+		"password": "••••••••",
+		"select_language": "Sélectionnez votre langue"
+	},
+	"labels": {
+		"username": "Nom d'utilisateur",
+		"email": "Email",
+		"password": "Mot de passe",
+		"language": "Langue"
+	},
+	"forgot_password": {
+		"title": "Mot de passe oublié?",
+		"description": "Entrez votre adresse e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+		"email_label": "Email",
+		"email_placeholder": "Entrez votre adresse e-mail",
+		"submit_button": "Envoyer le lien de réinitialisation",
+		"remember_password": "Vous vous souvenez de votre mot de passe?",
+		"login_link": "Connexion",
+		"success_message": "Lien de réinitialisation envoyé à votre e-mail",
+		"error": {
+			"unexpected": "Une erreur inattendue est survenue",
+			"invalid_email": "Adresse e-mail invalide",
+			"email_not_found": "Aucun compte trouvé avec cette adresse e-mail"
+		}
+	},
+	"reset_password": {
+		"title": "Réinitialiser le mot de passe",
+		"description": "Entrez votre nouveau mot de passe ci-dessous pour réinitialiser votre mot de passe.",
+		"new_password": {
+			"label": "Nouveau mot de passe",
+			"placeholder": "Entrez un nouveau mot de passe"
+		},
+		"confirm_password": {
+			"label": "Confirmez le mot de passe",
+			"placeholder": "Confirmez le nouveau mot de passe"
+		},
+		"submit_button": "Réinitialiser le mot de passe",
+		"success_message": "Mot de passe réinitialisé avec succès",
+		"error": {
+			"passwords_not_match": "Les mots de passe ne correspondent pas",
+			"invalid_token": "Jeton de réinitialisation invalide ou expiré",
+			"password_requirements": "Le mot de passe ne respecte pas les exigences",
+			"unexpected": "Une erreur inattendue est survenue"
+		}
+	},
+	"header": {
+		"title": {
+			"main": "FindAlike.Me",
+			"connect": "Connectez-vous avec des gens",
+			"who": "qui",
+			"understand": "comprennent"
+		},
+		"description": {
+			"part1": "Trouvez du soutien et guérissez en discutant avec des milliers de personnes qui affrontent les mêmes défis.",
+			"part2": "Ensemble, nous devenons plus forts."
+		},
+		"cta_button": "Rejoignez la conversation",
+		"reviews": {
+			"john": {
+				"text": "Incroyable ! 💖",
+				"name": "Cristal"
+			},
+			"jennifer": {
+				"text": "Ce site sauvera de nombreuses vies ❤️",
+				"name": "xoxo"
+			},
+			"anna": {
+				"text": "Une idée absolument brillante.",
+				"name": "Brt Ko"
+			},
+			"mateusz": {
+				"text": "Les mots ne peuvent pas décrire tout le bien que cela apportera 💝",
+				"name": "."
+			}
+		}
+	},
+	"problem_solution": {
+		"headline": {
+			"title": "Vous vous sentez seul dans",
+			"title_break": "vos difficultés ?"
+		},
+		"problem": {
+			"title": "Le problème",
+			"description": "Les défis de la vie peuvent sembler écrasants, surtout lorsqu'il semble que personne d'autre ne comprend ce que vous traversez.",
+			"points": {
+				"0": {
+					"text": "Lutter contre une addiction, la solitude, ou la maladie peut",
+					"bold": "se sentir isolant",
+					"text_after": ""
+				},
+				"1": {
+					"text": "Beaucoup ressentent qu'ils n'ont",
+					"bold": "personne à qui parler",
+					"text_after": "ou qui comprenne vraiment leur douleur"
+				},
+				"2": {
+					"text": "Le manque de soutien peut rendre difficile de trouver de l'espoir ou",
+					"bold": "de commencer un chemin de guérison",
+					"text_after": ""
+				}
+			}
+		},
+		"solution": {
+			"title": "La solution",
+			"description": "Vous n'êtes pas seul. Il y a des millions de personnes qui affrontent des défis similaires.",
+			"points": {
+				"0": {
+					"text": "",
+					"bold": "Trouvez d'autres personnes avec des luttes similaires",
+					"text_after": ", que ce soit une addiction, la santé mentale ou une maladie chronique"
+				},
+				"1": {
+					"text": "Participez à des",
+					"bold": "conversations anonymes et solidaires avec des personnes qui \"comprennent\"",
+					"text_after": ""
+				},
+				"2": {
+					"text": "Établissez des connexions qui vous permettront",
+					"bold": "de guérir et de grandir",
+					"text_after": "en un rien de temps"
+				}
+			}
+		}
+	},
+	"how_it_works": {
+		"headline": {
+			"title": "Comment ça marche?",
+			"description": "Se connecter avec d'autres sur FindAlike.Me est simple et sécurisé. Voici comment ça fonctionne."
+		},
+		"steps": {
+			"1": {
+				"title": "Créez un compte gratuit",
+				"description": "Inscrivez-vous gratuitement et créez votre profil."
+			},
+			"2": {
+				"title": "Trouvez votre correspondance",
+				"description": "Recherchez et connectez-vous avec des personnes partageant les mêmes idées."
+			},
+			"3": {
+				"title": "Commencez la conversation",
+				"description": "Engagez-vous dans des conversations significatives et établissez des liens."
+			}
+		},
+		"cta_button": "Commencez à discuter"
+	},
+	"support": {
+		"badge": "Nous sommes à but non lucratif",
+		"title": "Soutenez notre mission",
+		"description": "Nous croyons que tout le monde mérite une communauté de soutien, quels que soient ses moyens. Votre contribution nous aide à maintenir et développer FindAlike.Me, offrant une plateforme sûre et anonyme à ceux qui en ont le plus besoin. Tout montant compte."
+	},
+	"cta_section": {
+		"title": {
+			"part1": "Prêt à trouver votre",
+			"part2": "communauté"
+		},
+		"description": "Vous n'avez pas à affronter vos défis seuls. Rejoignez FindAlike.Me et connectez-vous avec des personnes qui comprennent. Votre prochaine conversation pourrait faire toute la différence.",
+		"button": "Rejoignez la conversation"
+	},
+	"footer": {
+		"support_initiative": "Soutenez notre initiative",
+		"sections": {
+			"pages": {
+				"title": "Pages",
+				"links": {
+					"home": "Accueil",
+					"register": "Inscription",
+					"login": "Connexion"
+				}
+			},
+			"support": {
+				"title": "Soutien",
+				"links": {
+					"privacy": "Politique de confidentialité",
+					"faq": "FAQ",
+					"contact": "Contact"
+				}
+			},
+			"company": {
+				"title": "FindAlikeMe",
+				"labels": {
+					"nip": "NIP",
+					"phone": "Téléphone",
+					"email": "Email"
+				}
+			}
+		}
+	},
+	"navbar": {
+		"menu": {
+			"how_it_works": "Comment ça marche",
+			"faq": "FAQ",
+			"contact": "Contact"
+		},
+		"buttons": {
+			"login": "Connexion",
+			"logout": "Déconnexion",
+			"start_chatting": "Commencer à discuter",
+			"verify": "Vérifier"
+		}
+	},
+	"active_searches": {
+		"status": "Recherche",
+		"age_range": "ans",
+		"time_ago": {
+			"just_now": "À l'instant",
+			"minutes_ago": "il y a {{count}}m",
+			"hours_ago": "il y a {{count}}h",
+			"days_ago": "il y a {{count}}j"
+		},
+		"cancel_search": "Annuler la recherche",
+		"no_active_searches": "Aucune recherche active"
+	},
+	"user_counter": {
+		"users_count": "{{count}} personnes ont déjà rejoint",
+		"join_them": "Rejoignez-les aujourd'hui !"
+	},
+	"user_stats": {
+		"online": "En ligne",
+		"total": "Total"
+	}
+}

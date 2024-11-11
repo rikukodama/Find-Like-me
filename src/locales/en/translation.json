@@ -1,0 +1,489 @@
+{
+	"findNew": {
+		"title": "Find someone like you",
+		"descriptionTitle": "Find someone who shares your interests, values, and goals. Our matching algorithm will help you find your perfect match.",
+		"formValidationDescriptionLength": "The description must contain at least 10 characters.",
+		"labels": {
+			"selectCategory": "Select Problem Category:",
+			"selectSpecificIssue": "Specify the Problem:",
+			"describeYourProblem": "Describe your problem here...",
+			"selectMode": "Choose",
+			"describeMode": "Describe",
+			"selectAgeRange": "Select age range"
+		},
+		"placeholders": {
+			"category": "Choose a category",
+			"specificIssue": "Choose a specific problem",
+			"describeYourProblem": "Describe your problem here...",
+			"selectAgeRange": "Select age range"
+		},
+		"submitButton": {
+			"default": "Find a Friend",
+			"incomplete": "Answer all questions",
+			"limitReached": "Friend limit reached"
+		},
+		"questions": {
+			"problem": "What is your problem?"
+		},
+		"submitError": "Error submitting response.",
+		"formValidationError": "Please answer all questions.",
+		"searchingFriend": "Searching for a friend...",
+		"activeResponseWarning": "You already have an active response in the category:",
+		"fetchUserDataError": "Error fetching user data.",
+		"alert_can_cancel": "You can cancel the active response.",
+		"closeInfo": "*Click outside this window if you want to close it.",
+		"describeMode": "Describe Mode",
+		"list": "Choose",
+		"description": "Describe",
+		"categories": {
+			"Addictions": [
+				"I am addicted to Phone/Computer",
+				"I am addicted to Social Media",
+				"I am addicted to Computer Games",
+				"I am addicted to Work",
+				"I am addicted to Gambling",
+				"I am addicted to Sex",
+				"I am addicted to Shopping",
+				"I am addicted to Nicotine",
+				"I am addicted to Alcohol",
+				"I am addicted to Drugs"
+			],
+			"Complexes": [
+				"I have a height complex",
+				"I have a weight complex",
+				"I have a facial appearance complex",
+				"I have a body image complex",
+				"I have an intelligence complex",
+				"I have a fashion complex",
+				"I have a voice complex",
+				"I have a social skills complex"
+			],
+			"Loneliness": [
+				"I feel lonely",
+				"I have no friends",
+				"I have no one to talk to",
+				"I don't feel supported by my family",
+				"I don't have a close person",
+				"Lack of acceptance in peer group",
+				"Lack of acceptance in professional group"
+			],
+			"Sexual Orientation Issues": [
+				"I don't know who I am",
+				"I'm afraid to come out",
+				"I don't accept my orientation",
+				"I'm afraid of being rejected by my family",
+				"I am gay, I would like to talk to another gay person",
+				"I am lesbian, I would like to talk to another lesbian"
+			],
+			"Violence": [
+				"I am a victim of violence at school",
+				"I am a victim of physical violence",
+				"I am a victim of psychological violence",
+				"I am a victim of family violence",
+				"I am a victim of economic violence",
+				"I am a victim of sexual violence"
+			],
+			"Depression": [
+				"I feel depressed",
+				"I feel worthless",
+				"I feel helpless",
+				"I feel unnecessary",
+				"I feel misunderstood",
+				"I can't enjoy things that used to make me happy",
+				"I self-harm",
+				"I think about suicide"
+			],
+			"Death of a Loved One": ["A close family member died", "A friend died", "A partner died", "A pet died"],
+			"Anxieties": [
+				"I'm afraid of public speaking",
+				"I'm afraid of loneliness",
+				"I'm afraid of the future",
+				"I'm afraid of change",
+				"I'm afraid of illness",
+				"I'm afraid of death",
+				"I'm afraid of the death of a loved one",
+				"I'm afraid of losing my job",
+				"I'm afraid of losing my home"
+			],
+			"Disorders": ["I eat too much", "I eat too little", "I vomit after eating"],
+			"Relationship Problems": [
+				"Problems in relationships with parents",
+				"Problems in relationship with partner",
+				"Problems in relationship with siblings",
+				"Difficulties in making friends",
+				"Difficulties in maintaining relationships",
+				"Lack of trust in others"
+			]
+		}
+	},
+	"confirmation_dialog": {
+		"yes": "Yes",
+		"no": "No"
+	},
+	"friends_list": {
+		"title": "Your Friends",
+		"search_placeholder": "Search",
+		"my_friends": "My Friends",
+		"no_friends_found": "No friends found for {{query}}",
+		"no_friends_or_active_searches": "No friends or active searches",
+		"find_new_friend": "Start a Meaningful Connection",
+		"talk_to_professional": "Connect with an Expert",
+		"active_searches_section": {
+			"title": "Active Searches",
+			"toggle_aria": "Toggle active searches section"
+		},
+		"or": "OR",
+		"leave_review_prompt": "Leave a review"
+	},
+	"chat_window": {
+		"today": "Today",
+		"cancel_reply": "Cancel reply",
+		"back_button": "Back",
+		"no_friend_selected_title": "Select a friend to start chatting",
+		"no_friend_selected_subtitle": "Go back to an already existing chat or find a new friend",
+		"delete_friend": "Delete Friend",
+		"confirm_remove_friend": "Are you sure you want to remove {{name}} as a friend?",
+		"message_deleted": "This message has been deleted.",
+		"replying_to": "Replying to",
+		"emoji_picker": {
+			"title": "Emojis",
+			"close": "Close emoji picker",
+			"search": {
+				"placeholder": "Search emojis..."
+			},
+			"categories": {
+				"recent": "Recent",
+				"favorites": "Favorites",
+				"smileys": "Smileys",
+				"emotions": "Emotions",
+				"food": "Food & Drink",
+				"flags": "Flags"
+			},
+			"section_titles": {
+				"search_results": "Search Results"
+			}
+		},
+		"message_input": {
+			"placeholder": "Send a message..."
+		}
+	},
+	"edit_profile": {
+		"settings": "Settings",
+		"profile_info": "Profile Info",
+		"profile_info_description": "Manage and update your public profile info",
+		"profile_picture_alt": "Profile picture",
+		"generate_new_avatar": "Generate new avatar",
+		"username_label": "Username",
+		"username_placeholder": "Enter your username",
+		"description_label": "Description",
+		"description_placeholder": "Tell us about yourself",
+		"language_label": "Language",
+		"select_language": "Select language",
+		"password_label": "Password",
+		"password_placeholder": "Enter new password",
+		"repeat_password_label": "Repeat Password",
+		"repeat_password_placeholder": "Repeat your password",
+		"passwords_do_not_match": "Passwords do not match",
+		"cancel": "Cancel",
+		"confirm": "Confirm",
+		"logout": "Logout",
+		"delete_account": "Delete Account",
+		"delete_account_confirmation": "Are you sure you want to delete your account? This action cannot be undone.",
+		"account_deleted_success": "Account successfully deleted",
+		"account_delete_error": "Error deleting account",
+		"profile_updated_success": "Profile successfully updated",
+		"profile_update_error": "Error updating profile",
+		"username_taken": "Username is already taken",
+		"username_check_error": "Error checking username availability",
+		"username_invalid": "Username contains inappropriate content",
+		"form_validation_error": "Please fix the errors before submitting",
+		"password_strength_very_strong": "Very Strong",
+		"password_strength_strong": "Strong",
+		"password_strength_ok": "OK",
+		"password_strength_weak": "Weak",
+		"password_strength_too_short": "Too Short"
+	},
+	"login": {
+		"welcome_back": "Welcome Back!",
+		"enter_details": "Enter your details to join the conversation and reconnect with people who understand.",
+		"email": "Email",
+		"password": "Password",
+		"forgot_password": "Forgot Password?",
+		"login_button": "Login",
+		"no_account": "Don't have an account?",
+		"register_link": "Register",
+		"invalid_data": "Invalid data",
+		"invalid_credentials": "Invalid email or password",
+		"success": "Login successful"
+	},
+	"register": {
+		"create_account": "Create Account",
+		"join_community": "Join our supportive community today",
+		"username": "Username",
+		"email": "Email",
+		"password": "Password",
+		"language": "Language",
+		"register_button": "Register",
+		"have_account": "Already have an account?",
+		"login_link": "Login",
+		"name_too_short": "Username must be at least 3 characters long",
+		"username_taken": "This username is already taken",
+		"username_check_failed": "Error checking username availability",
+		"invalid_email": "Invalid email address",
+		"email_taken": "This email is already registered",
+		"email_check_failed": "Error checking email availability",
+		"password_too_short": "Password must be at least 8 characters long",
+		"password_too_weak": "Password must contain at least one lowercase letter, one uppercase letter, and one number",
+		"success": "Registration successful"
+	},
+	"password_strength": {
+		"requirements": {
+			"min_length": "At least 8 characters",
+			"uppercase": "One uppercase letter",
+			"lowercase": "One lowercase letter",
+			"number": "One number"
+		},
+		"strength": {
+			"weak": "Weak",
+			"fair": "Fair",
+			"good": "Good",
+			"strong": "Strong"
+		}
+	},
+	"hero_content": {
+		"first": {
+			"title": "Find Support, Share Strength",
+			"description": "Connect with people who understand your struggles and grow together"
+		},
+		"second": {
+			"title": "Safe Space for Healing",
+			"description": "Share your journey in a supportive and non-judgmental environment"
+		},
+		"third": {
+			"title": "Empowerment Through Community",
+			"description": "Gain insights, tools, and friendships to help you thrive"
+		}
+	},
+	"placeholders": {
+		"username": "Enter your username",
+		"email": "example@email.com",
+		"password": "••••••••",
+		"select_language": "Select your language"
+	},
+	"labels": {
+		"username": "Username",
+		"email": "Email",
+		"password": "Password",
+		"language": "Language"
+	},
+	"forgot_password": {
+		"title": "Forgot Password?",
+		"description": "Enter your email address and we'll send you a link to reset your password.",
+		"email_label": "Email",
+		"email_placeholder": "Enter your email address",
+		"submit_button": "Send Reset Link",
+		"remember_password": "Remember your password?",
+		"login_link": "Login",
+		"success_message": "Reset link sent to your email",
+		"error": {
+			"unexpected": "An unexpected error occurred",
+			"invalid_email": "Invalid email address",
+			"email_not_found": "No account found with this email address"
+		}
+	},
+	"reset_password": {
+		"title": "Reset Password",
+		"description": "Enter your new password below to reset your account password.",
+		"new_password": {
+			"label": "New Password",
+			"placeholder": "Enter new password"
+		},
+		"confirm_password": {
+			"label": "Confirm Password",
+			"placeholder": "Confirm new password"
+		},
+		"submit_button": "Reset Password",
+		"success_message": "Password has been reset successfully",
+		"error": {
+			"passwords_not_match": "Passwords do not match",
+			"invalid_token": "Invalid or expired reset token",
+			"password_requirements": "Password does not meet requirements",
+			"unexpected": "An unexpected error occurred"
+		}
+	},
+	"header": {
+		"title": {
+			"main": "FindAlike.Me",
+			"connect": "Connect with People",
+			"who": "Who",
+			"understand": "Understand"
+		},
+		"description": {
+			"part1": "Find support and healing by chatting with thousands of people facing similar challenges.",
+			"part2": "Together, we grow stronger."
+		},
+		"cta_button": "Join the Conversation",
+		"reviews": {
+			"john": {
+				"text": "Amazing! 💖",
+				"name": "Cristal"
+			},
+			"jennifer": {
+				"text": "This site will save many lives ❤️",
+				"name": "xoxo"
+			},
+			"anna": {
+				"text": "Absolutely brilliant idea.",
+				"name": "Brt Ko"
+			},
+			"mateusz": {
+				"text": "Words can't describe how much good this will bring 💝",
+				"name": "."
+			}
+		}
+	},
+	"problem_solution": {
+		"headline": {
+			"title": "Feeling Alone in",
+			"title_break": "Your Struggles?"
+		},
+		"problem": {
+			"title": "The Problem",
+			"description": "Life's challenges can feel overwhelming, especially when it seems like no one else understands what you're going through.",
+			"points": {
+				"0": {
+					"text": "Struggling with addiction, loneliness, or illness can",
+					"bold": "feel isolating",
+					"text_after": ""
+				},
+				"1": {
+					"text": "Many feel they have",
+					"bold": "no one to talk to",
+					"text_after": "or who truly understands their pain"
+				},
+				"2": {
+					"text": "Lack of support can make it hard to find hope or",
+					"bold": "start the journey toward healing",
+					"text_after": ""
+				}
+			}
+		},
+		"solution": {
+			"title": "The Solution",
+			"description": "You're not alone. There are millions of people out there facing similar battles.",
+			"points": {
+				"0": {
+					"text": "",
+					"bold": "Find others facing similar struggles",
+					"text_after": ", whether it's addiction, mental health, or chronic illness"
+				},
+				"1": {
+					"text": "Engage in anonymous, supportive",
+					"bold": "conversations with people who \"get it\"",
+					"text_after": ""
+				},
+				"2": {
+					"text": "Build connections that empower you to",
+					"bold": "heal and grow",
+					"text_after": "in no time"
+				}
+			}
+		}
+	},
+	"how_it_works": {
+		"headline": {
+			"title": "How It Works?",
+			"description": "Connecting with others on FindAlike.Me is simple and secure. Here's how it works."
+		},
+		"steps": {
+			"1": {
+				"title": "Create a Free Account",
+				"description": "Sign up for free and create your profile."
+			},
+			"2": {
+				"title": "Find Your Match",
+				"description": "Search and connect with like-minded individuals."
+			},
+			"3": {
+				"title": "Start the Conversation",
+				"description": "Engage in meaningful conversations and build connections."
+			}
+		},
+		"cta_button": "Start Chatting"
+	},
+	"support": {
+		"badge": "We're Non-Profit",
+		"title": "Support Our Mission",
+		"description": "We believe everyone deserves a supportive community, regardless of their circumstances. Your contribution helps us maintain and grow FindAlike.Me, offering a safe, anonymous platform for those who need it most. Any amount helps."
+	},
+	"cta_section": {
+		"title": {
+			"part1": "Ready to Find Your",
+			"part2": "Community"
+		},
+		"description": "You don't have to face your challenges alone. Join FindAlike.Me and connect with people who understand. Your next conversation could make all the difference.",
+		"button": "Join the Conversation"
+	},
+	"footer": {
+		"support_initiative": "Support Our Initiative",
+		"sections": {
+			"pages": {
+				"title": "Pages",
+				"links": {
+					"home": "Home",
+					"register": "Register",
+					"login": "Login"
+				}
+			},
+			"support": {
+				"title": "Support",
+				"links": {
+					"privacy": "Privacy Policy",
+					"faq": "FAQ",
+					"contact": "Contact"
+				}
+			},
+			"company": {
+				"title": "FindAlikeMe",
+				"labels": {
+					"nip": "NIP",
+					"phone": "Phone",
+					"email": "Email"
+				}
+			}
+		}
+	},
+	"navbar": {
+		"menu": {
+			"how_it_works": "How It Works",
+			"faq": "FAQ",
+			"contact": "Contact"
+		},
+		"buttons": {
+			"login": "Login",
+			"logout": "Logout",
+			"start_chatting": "Start Chatting",
+			"verify": "Verify"
+		}
+	},
+	"active_searches": {
+		"status": "Searching",
+		"age_range": "years",
+		"time_ago": {
+			"just_now": "Just now",
+			"minutes_ago": "{{count}}m ago",
+			"hours_ago": "{{count}}h ago",
+			"days_ago": "{{count}}d ago"
+		},
+		"cancel_search": "Cancel search",
+		"no_active_searches": "No active searches"
+	},
+	"user_counter": {
+		"users_count": "{{count}} people have already joined",
+		"join_them": "Join them today!"
+	},
+	"user_stats": {
+		"online": "Online",
+		"total": "Total"
+	}
+}

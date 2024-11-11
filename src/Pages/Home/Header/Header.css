@@ -1,0 +1,206 @@
+header {
+	min-height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background: var(--foreground);
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+	padding-top: 120px;
+	gap: 120px;
+	z-index: 1; /* Ensure header has a base z-index */
+	contain: content; /* Optimize rendering */
+}
+.header-wrapper {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	contain: layout paint style; /* Optimize rendering */
+}
+.header-container {
+	position: absolute;
+	top: 16px;
+	height: 115vh; /* Adjusted for padding */
+	max-height: 1220px;
+	width: calc(100vw - 32px); /* Adjusted for padding */
+	background: var(--primary-gradient);
+	border-radius: 24px;
+	z-index: 2; /* Ensure this is below header__info */
+	overflow: hidden; /* Ensure the ::after element doesn't overflow */
+	transform: translateZ(0); /* Force GPU acceleration */
+	will-change: transform; /* Optimize animations */
+}
+@media (max-width: 768px) {
+	.header-container {
+		top: 8px;
+		width: calc(100vw - 16px); /* Adjusted for padding */
+	}
+}
+.header-container::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 200%;
+	background-size: 40px 40px; /* Size of the grid */
+	background-image: linear-gradient(to right, rgba(228, 228, 228, 0.184) 1px, transparent 1px),
+		linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+	opacity: 1; /* Initial opacity */
+	z-index: 10; /* Ensure it is behind other elements */
+	transform: rotate(45deg); /* Rotate the grid */
+	animation: moveGrid 20s linear infinite; /* Add a move animation */
+}
+
+.header__info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 885px;
+	z-index: 1000; /* Increase this significantly */
+	position: relative; /* Add this if not already present */
+}
+
+.review-container {
+	position: absolute;
+	width: 100%;
+	max-width: 1280px !important;
+	height: 100%;
+	max-height: 550px !important;
+	transform: translate(-50%, -50%);
+	top: 400px;
+	left: 50%;
+	margin: 0;
+	padding: 0;
+	z-index: 5; /* Ensure this is above header__info but below the CTA button */
+	pointer-events: none;
+	contain: layout style;
+}
+
+.h1__div__underline {
+	position: relative;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.h1__div__underline span {
+	z-index: 2;
+}
+
+.hedaer__h1__underline {
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
+
+header h1 {
+	color: #fff;
+	font-size: 80px;
+	text-align: center;
+	margin: 0px;
+	font-weight: bold;
+	line-height: 1.1;
+}
+
+header p {
+	font-size: 18px;
+	font-family: 'Open sans';
+	color: #fff;
+	font-weight: normal;
+	max-width: 550px;
+	padding: 0px 30px;
+	text-align: center;
+	margin: 24px 0px;
+}
+
+header p b {
+	font-weight: bold;
+}
+
+.hero-img {
+	width: 90%;
+	max-width: 1380px;
+	border-radius: 14px;
+	z-index: 4; /* Ensure this is above header__info but below review-container */
+	position: relative; /* Ensure it is positioned */
+	display: block; /* Make the image a block element */
+	margin: 0 auto; /* Center the image horizontally */
+	outline: 18px solid #e2e2e254;
+}
+
+@media (max-width: 1200px) {
+	header h1 {
+		font-size: 70px;
+	}
+
+	header p {
+		font-size: 17px;
+		max-width: 500px;
+	}
+}
+
+@media (max-width: 992px) {
+	header h1 {
+		font-size: 60px;
+	}
+
+	header p {
+		font-size: 16px;
+		max-width: 450px;
+	}
+}
+
+@media (max-width: 768px) {
+	header h1 {
+		font-size: 50px;
+	}
+
+	header p {
+		font-size: 15px;
+		max-width: 400px;
+	}
+}
+
+@media (max-width: 576px) {
+	header h1 {
+		font-size: 40px;
+	}
+
+	header p {
+		font-size: 14px;
+		max-width: 350px;
+	}
+}
+
+@media (max-width: 400px) {
+	header h1 {
+		font-size: 35px;
+	}
+
+	header p {
+		font-size: 15px;
+	}
+}
+
+/* Add this new rule */
+.review-comment {
+	pointer-events: none;
+}
+
+/* Tablet styles */
+
+/* Mobile styles */
+@media (max-width: 576px) {
+	.header__h1__underline {
+		bottom: -2px;
+		width: 80%;
+		left: 10%;
+	}
+}

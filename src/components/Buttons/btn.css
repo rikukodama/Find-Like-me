@@ -1,0 +1,213 @@
+/* Add these rules at the top of the file */
+a {
+	text-decoration: none !important;
+}
+
+.btn__cta,
+.btn__cta2,
+.btn {
+	text-decoration: none !important;
+}
+
+.btn {
+	padding: 13px 25px;
+	border-radius: 40px;
+	font-size: 15px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	text-decoration: none !important;
+	z-index: 999;
+}
+.btn__1 {
+	background: var(--primary-gradient);
+	color: #fff;
+	border: none;
+}
+.btn__2 {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.btn__2:hover {
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.btn__3 {
+	background: #fff;
+	color: #000;
+	border: none;
+}
+
+.btn__3:hover {
+	background: #f0f0f0;
+}
+.btn__cta {
+	font-size: 20px;
+	background: #fff;
+	padding: 24px 32px;
+	color: #222222;
+	font-weight: 600;
+	border-radius: 999px;
+	cursor: pointer;
+	max-width: 340px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 99;
+	border: none;
+	outline: 6px solid #ffffff72;
+	transition: all 0.3s ease;
+	position: relative;
+	overflow: hidden;
+	text-decoration: none !important;
+}
+
+.btn__cta:hover {
+	transform: translateY(-3px);
+	box-shadow: 0;
+}
+
+.btn__cta-text {
+	margin-right: 8px;
+}
+
+.btn__cta-icon {
+	width: 24px;
+	height: 24px;
+}
+
+@media (max-width: 768px) {
+	.btn__cta {
+		font-size: 18px;
+		padding: 20px 28px;
+		max-width: 280px;
+	}
+
+	.btn__cta-icon {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.btn__cta {
+		font-size: 16px;
+		padding: 16px 24px;
+		max-width: 240px;
+	}
+
+	.btn__cta-icon {
+		width: 18px;
+		height: 18px;
+	}
+}
+
+.btn__cta2 {
+	background: var(--primary-gradient);
+	color: #fff;
+	border-radius: 40px;
+	padding: 16px 32px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	justify-content: center;
+	border: none;
+	font-family: 'Open sans';
+	font-size: 16px;
+	z-index: 2;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	text-decoration: none !important;
+	position: relative;
+}
+.btn__cta-text {
+	text-decoration: none !important;
+}
+.btn__cta2:hover,
+.btn__cta2:focus {
+	opacity: 0.9;
+	transform: translateY(-2px);
+}
+
+.btn__cta2:active {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Remove the ::after pseudo-element for btn__cta2 */
+.btn__cta2::after {
+	content: none;
+}
+
+/* Ensure text and icon alignment */
+.btn__cta2 span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.btn__cta2 img {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+/* Accessibility: Ensure focus is visible for keyboard navigation */
+.btn__cta:focus-visible,
+.btn__cta2:focus-visible {
+	outline: 2px solid #4a90e2;
+	outline-offset: 2px;
+}
+
+/* Prevent focus outline for mouse users */
+.btn__cta:focus:not(:focus-visible),
+.btn__cta2:focus:not(:focus-visible) {
+	outline: none;
+}
+
+/* Specific styles for btn__cta */
+.btn__cta {
+	background: #fff;
+	color: #222222;
+}
+
+.btn__cta:hover,
+.btn__cta:focus {
+	background: #f8f8f8;
+}
+
+.btn__cta:active {
+	background: #e8e8e8;
+}
+
+/* Ensure text remains visible during WebKit tap highlight */
+.btn__cta,
+.btn__cta2 {
+	-webkit-tap-highlight-color: transparent;
+}
+
+/* Improve touch area on mobile */
+@media (max-width: 768px) {
+	.btn__cta,
+	.btn__cta2 {
+		padding: 16px 24px;
+	}
+}
+
+/* Add these specific selectors */
+a .btn,
+a .btn__cta,
+a .btn__cta2,
+.btn a,
+.btn__cta a,
+.btn__cta2 a {
+	text-decoration: none !important;
+}
+
+.btn__cta span,
+.btn__cta2 span,
+.btn span {
+	text-decoration: none !important;
+}

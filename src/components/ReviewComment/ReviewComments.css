@@ -1,0 +1,137 @@
+.review-comment {
+	width: 190px;
+	height: auto;
+	padding: 8px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: fixed;
+	z-index: 100 !important;
+	background: #fae6c076;
+	border: 1px solid #fae6c0;
+	border-radius: 8px;
+	transition: transform 0.3s ease;
+}
+.review-comment__image {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+}
+.review-comment__image img {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	border: 1px solid #e5e5e5;
+}
+
+.review-comment__text {
+	font-family: 'Open Sans';
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.review-comment__text h4 {
+	font-size: 14px;
+	color: #140c01;
+	font-weight: 500;
+	margin: 0px;
+	line-height: 1.1;
+}
+.review-comment__text p {
+	font-size: 12px;
+	color: #140c01;
+	font-weight: 400;
+	line-height: 1.1;
+	margin: 0px;
+	padding: 0px;
+
+	text-align: left;
+}
+
+/* Default styles for each comment */
+.review-comment--john {
+	/* Default position and rotation for John Doe's comment */
+	top: 16px;
+	right: 32px;
+	transform: rotate(10deg);
+}
+
+.review-comment--jennifer {
+	bottom: 16px;
+	right: 32px;
+	transform: rotate(-10deg);
+}
+
+.review-comment--anna {
+	top: 0px;
+	left: 32px;
+	transform: rotate(-10deg);
+}
+
+.review-comment--mateusz {
+	bottom: 24px;
+	left: 32px;
+	transform: rotate(10deg);
+}
+
+@media (max-width: 990px) {
+	.review-comment--john {
+		top: 16px;
+		right: 62px;
+	}
+	.review-comment--jennifer {
+		bottom: 46px;
+		right: 62px;
+	}
+	.review-comment--anna {
+		top: 16px;
+		left: 62px;
+	}
+	.review-comment--mateusz {
+		bottom: 54px;
+		left: 62px;
+	}
+}
+@media (max-width: 578px) {
+	.review-comment {
+		scale: 0.85;
+	}
+	.review-comment--john {
+		top: 0px;
+		display: none;
+		right: 12px;
+	}
+	.review-comment--jennifer {
+		bottom: 116px;
+		right: 12px;
+		display: none;
+	}
+	.review-comment--anna {
+		top: 16px;
+		left: 12px;
+		display: none;
+	}
+	.review-comment--mateusz {
+		bottom: 124px;
+		left: 12px;
+		display: none;
+	}
+	header {
+		gap: 55px;
+	}
+	.hero-img {
+		outline: 14px solid #e2e2e254;
+		width: 80%;
+	}
+}
+
+/* Tablet styles */
+@media (min-width: 577px) and (max-width: 992px) {
+	header {
+		padding-top: 200px;
+	}
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Porozmawiaj z osoba która nie tylko Cię wysłucha ale i zrozumie." />
+
+  <!-- Preload critical assets -->
+  <link rel="preload" href="/static/media/ChatMobile.svg" as="image" />
+  <link rel="preconnect" href="https://api.dicebear.com" />
+
+  <!-- Inline critical CSS -->
+  <style>
+    :root {
+      --foreground: #000000;
+      --primary-gradient: linear-gradient(45deg, #ff7e05, #ff5c00);
+    }
+    .loading-spinner {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--foreground);
+      color: white;
+    }
+  </style>
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <title>FindAlikeMe | Znajdź kogoś kto Cię zrozumie</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+
+</html>

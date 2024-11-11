@@ -1,0 +1,182 @@
+footer {
+	width: 100vw !important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 36px 36px 0px 0px;
+	background: #fff;
+	outline: 6px solid #f5f4f143;
+	border-bottom: 0px solid #fff;
+	margin-bottom: 0px !important;
+	padding: 0px;
+}
+.footer-findalikeme {
+	position: relative; /* Ensure the :after element is positioned relative to this */
+	width: 100%;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: flex-end;
+	overflow: hidden;
+}
+.footer-container-left {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.footer-container-left .logo img {
+	height: 100px;
+}
+.footer-container-left .logo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.footer-container-left p {
+	padding: 0px 1rem;
+	color: #737373;
+	font-size: 14px;
+	font-family: 'Open Sans';
+
+	transform: translateY(1rem);
+}
+.footer-container-left h2 {
+	color: #140c01;
+	padding: 0px 1rem;
+	font-size: 33px;
+}
+.footer-container-left h2 span {
+	color: #f18a31;
+}
+.footer-findalikeme:after {
+	content: '';
+	position: absolute; /* Ensure it's positioned correctly */
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(180deg, transparent, #ffffff8a, #fff); /* Ensure the gradient is visible */
+	z-index: 999;
+	pointer-events: none; /* Ensure it doesn't block interactions */
+}
+.footer-findalikeme h5 {
+	text-align: center; /* Center the text */
+	font-size: 15vw;
+	line-height: 1.1;
+	font-weight: 900;
+	color: #000;
+	margin: 0px;
+	transform: translateY(17%);
+}
+.footer-findalikeme h5 span {
+	color: #fd8014;
+}
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+	max-width: 1280px;
+}
+.footer-container-left {
+	width: 100%;
+}
+.footer-container-right {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+.footer-container-right div {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.footer-container-right div p {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: normal;
+	color: #737373;
+	margin-bottom: 12px;
+}
+.footer-container-right ul li {
+	list-style: none;
+}
+.footer-container-right ul li a {
+	text-decoration: none;
+	color: #140c01;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: normal;
+	cursor: pointer;
+}
+.footer-container-right ul {
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	padding: 0px;
+	gap: 6px;
+}
+.footer-container-right div span {
+	text-decoration: none;
+	color: #140c01;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: normal;
+	cursor: pointer;
+}
+.footer-company-info {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: normal;
+	margin: 12px 0px !important;
+	color: #737373;
+}
+
+.footer-container .footer-iframe-container {
+	position: relative;
+	width: 100%;
+	height: 80px;
+	overflow: hidden;
+	padding: 0 !important; /* Override any existing padding */
+}
+
+.footer-container .footer-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	max-width: 320px;
+	padding: 0 !important; /* Override any existing padding */
+}
+
+.footer-container .footer-iframe-container.p-3 {
+	padding: 0 !important; /* Override the .p-3 padding */
+}
+
+.footer-container .footer-iframe.p-3 {
+	padding: 0 !important; /* Override the .p-3 padding */
+}
+
+.flex-grow-1 .p-3 {
+	padding: 0px !important;
+}
+@media (max-width: 768px) {
+	.footer-container {
+		flex-direction: column;
+		padding: 0px 20px;
+	}
+	.footer-container-right {
+		padding: 1rem;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+}

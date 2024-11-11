@@ -1,0 +1,342 @@
+/* Kontener główny */
+.find-new__container {
+	background-color: #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	color: #242424;
+	min-width: 100%;
+}
+
+/* Styl formularza */
+.find-new__form {
+	display: flex;
+	flex-direction: column;
+	transition: 350ms ease;
+}
+
+/* Styl etykiet */
+
+/* Styl dla textarea */
+/* Styl dla textarea */
+.find-new__form textarea {
+	width: 100%;
+	padding: 15px;
+	border: 2px solid #e5e5e5; /* Border color */
+	border-radius: 8px; /* Rounded corners */
+	font-size: 16px; /* Font size */
+	color: #242424; /* Text color */
+	resize: none; /* Disable resizing */
+	font-family: 'Open Sans';
+
+	margin-top: 8px;
+	transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for focus */
+}
+
+/* Focus state for textarea */
+.find-new__form textarea:focus {
+	border-color: rgb(135, 135, 135); /* Change border color on focus */
+	outline: none; /* Remove default outline */
+}
+
+/* Error state for textarea */
+.find-new__form textarea.error {
+	border-color: red; /* Change border color to red for error */
+}
+
+/* Styl przełącznika trybu */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+.find-new__title-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+	margin-bottom: 32px;
+}
+.find-new__title {
+	line-height: 1.2;
+	letter-spacing: -2.5%;
+	font-family: 'Inter';
+	font-size: 18px;
+	color: #140c01;
+	font-weight: 500;
+	margin: 0px;
+}
+.find-new__description {
+	line-height: 1.3;
+	margin: 0px;
+	font-size: 14px;
+	color: #737373;
+	font-weight: normal;
+	font-family: 'Inter';
+}
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	transition: 0.4s;
+	border-radius: 34px;
+}
+
+.slider:before {
+	position: absolute;
+	content: '';
+	height: 24px;
+	width: 24px;
+	left: 3px;
+	bottom: 3px;
+	background-color: white;
+	transition: 0.4s;
+	border-radius: 50%;
+}
+
+input:checked + .slider {
+	background-color: rgb(255, 141, 99);
+}
+
+input:checked + .slider:before {
+	transform: translateX(28px);
+}
+
+/* Dodatkowe style przycisku zamykającego */
+.close-info {
+	color: #989898;
+	font-weight: 300;
+	font-size: 10px;
+	text-align: center;
+}
+
+/* Styl dla Custom Select */
+.custom-select {
+	width: 100%;
+	position: relative;
+	border-radius: 999px;
+	border: 1px solid #e5e5e5;
+	padding: 12px 16px;
+	background: #fff;
+	font-family: 'Open Sans';
+	font-weight: normal;
+	cursor: pointer;
+	font-size: 14px;
+	color: #737373;
+	margin-top: 8px;
+}
+
+.custom-select__trigger {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #000;
+}
+
+.custom-select__trigger::after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	transform: rotate(45deg);
+	transition: transform 0.3s ease;
+}
+
+.custom-select.open .custom-select__trigger::after {
+	transform: rotate(-135deg);
+}
+
+.custom-options {
+	position: absolute;
+	top: calc(100% + 5px);
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	z-index: 10;
+	max-height: 200px;
+	overflow-y: auto;
+	transition: opacity 0.3s ease;
+	opacity: 0;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+.custom-select.open .custom-options {
+	opacity: 1;
+	visibility: visible;
+}
+
+.custom-option {
+	padding: 15px 20px;
+	transition: background-color 0.3s ease;
+}
+
+.custom-option:hover,
+.custom-option.selected {
+	background-color: #e5e5e5;
+}
+
+.custom-option:not(:last-child) {
+	border-bottom: 1px solid #f0f0f0;
+}
+.category-selection-container-container {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.category-selection-container-container label {
+	color: #140c01;
+	font-family: 'Open Sans';
+	font-weight: 500;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+.age-range-selection-container {
+	margin-top: 32px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.age-range-selection {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 8px;
+	height: 46px;
+	margin-bottom: 32px;
+}
+.age-range-option {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 16px;
+	border-radius: 8px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #140c01;
+	border: 1px solid #e5e5e5;
+}
+.find-new__submit-button {
+	padding: 12px 24px;
+	border-radius: 999px;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	width: 100%;
+	cursor: pointer;
+	background: var(--primary-gradient);
+	border: none;
+}
+.find-new__submit-button:hover {
+	background: rgb(255, 194, 137);
+}
+/* Stylowanie przełącznika trybu (tryb opisu/wybierania) */
+/* Styl przełącznika wyboru trybu */
+.choice__findnew {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background: #f5f4f1;
+	border: none;
+	border-radius: 50px;
+	overflow: hidden;
+	position: relative;
+	padding: 4px;
+	margin-bottom: 24px;
+}
+.error-message-findnew {
+	font-size: 15px;
+}
+.choice__findnew button {
+	width: 50%;
+	padding: 6px 12px;
+	background: transparent;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	position: relative;
+	z-index: 1;
+	color: rgb(35, 35, 35);
+}
+.choice__findnew button:hover {
+	background: none;
+}
+
+.choice__findnew button.active {
+	color: #000;
+}
+
+/* Styl dla aktywnego tła */
+.choice__findnew::after {
+	content: '';
+	position: absolute;
+	width: 49%;
+	height: 80%;
+	border-radius: 40px;
+	background: #fff;
+	transition: transform 0.3s ease;
+	z-index: 0;
+}
+
+.choice__findnew.active-description::after {
+	transform: translateX(50%);
+}
+
+.choice__findnew.active-choice::after {
+	transform: translateX(-50%);
+}
+ge-range-selection {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 8px;
+}
+
+.age-range-option {
+	flex: 1;
+	text-align: center;
+	padding: 10px;
+	margin: 0 4px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.age-range-option.selected {
+	background: var(--primary-gradient);
+	color: white;
+	border: none;
+}
+/* FindNew.css */
+.disabled-select {
+	cursor: not-allowed; /* Change cursor to indicate it's not clickable */
+	pointer-events: none; /* Prevent any mouse events */
+	opacity: 0.5;
+}
+
+/* Media query to hide title container on smaller screens */
+@media (max-width: 768px) {
+	.find-new__title-container {
+		display: none; /* Hide the title container when screen width is 768px or smaller */
+	}
+}
